@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CoreTweet.Streaming.Reactive</id>
+    <version>0.4.0</version>
+    <title>CoreTweet.Streaming.Reactive</title>
+    <authors>CoreTweet Development Team</authors>
+    <owners>CoreTweet Development Team</owners>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/CoreTweet/CoreTweet</projectUrl>
+    <iconUrl>https://raw.github.com/CoreTweet/CoreTweet/master/icon/core-48x48.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET Twitter Library supporting API 1.1
+Simple, Powerful, and Well-designed for LINQ
+This is an unstable release.
+Please report bugs to https://github.com/CoreTweet/CoreTweet/issues</description>
+    <summary>Rx Extentions for CoreTweet</summary>
+    <copyright>(c) 2014 lambdalice, karno</copyright>
+    <tags>Twitter</tags>
+    <dependencies>
+      <dependency id="CoreTweet" version="0.4.0" />
+      <dependency id="Rx-Core" version="2.2.2" />
+      <dependency id="Rx-Interfaces" version="2.2.2" />
+      <dependency id="Rx-Linq" version="2.2.2" />
+    </dependencies>
+  </metadata>
+</package>
