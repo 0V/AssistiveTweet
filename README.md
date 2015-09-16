@@ -21,3 +21,7 @@ AssistiveTweet
 - もちろんふぁぼれません。
 - ふぁぼは進捗の敵だという宗教観がもとになっています。
 
+
+## ビルド前に
+- ソースコードのビルドを行う前に App.cs 内の ConsumerKey と ConsumerSecret にあなたのクライアントのキーを登録してください。
+- [リリースされているもの](https://github.com/0V/AssistiveTweet/releases)については、AssistiveTweet のキーが登録してあります。
